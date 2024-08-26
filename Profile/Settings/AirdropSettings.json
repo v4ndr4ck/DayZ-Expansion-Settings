@@ -1,8 +1,9 @@
 {
-    "m_Version": 0,
+    "m_Version": 5,
     "ServerMarkerOnDropLocation": 1,
     "Server3DMarkerOnDropLocation": 1,
     "ShowAirdropTypeOnMarker": 1,
+    "HideCargoWhileParachuteIsDeployed": 1,
     "HeightIsRelativeToGroundLevel": 1,
     "Height": 450.0,
     "FollowTerrainFraction": 0.5,
@@ -10,63 +11,13 @@
     "Radius": 1.0,
     "InfectedSpawnRadius": 50.0,
     "InfectedSpawnInterval": 250,
-    "ItemCount": 50,
+    "ItemCount": 0,
     "Containers": [
         {
             "Container": "ExpansionAirdropContainer",
+            "FallSpeed": 4.5,
             "Usage": 0,
             "Weight": 5.0,
-            "Loot": [
-                {
-                    "Name": "AKS74U",
-                    "Attachments": [
-                        "AKS74U_Bttstck"
-                    ],
-                    "Chance": 0.07999999821186066,
-                    "QuantityPercent": -1,
-                    "Variants": [],
-                    "Max": -1
-                },
-                {
-                    "Name": "FirstAidKit",
-                    "Attachments": [
-                        "BandageDressing",
-                        "BandageDressing",
-                        "BandageDressing",
-                        "BandageDressing",
-                        "BandageDressing",
-                        "BandageDressing"
-                    ],
-                    "Chance": 0.3799999952316284,
-                    "QuantityPercent": -1,
-                    "Variants": [
-                        {
-                            "Name": "FirstAidKit",
-                            "Attachments": [
-                                "BandageDressing",
-                                "SalineBagIV"
-                            ],
-                            "Chance": 0.13157899677753449,
-                            "QuantityPercent": -1
-                        },
-                        {
-                            "Name": "FirstAidKit",
-                            "Attachments": [],
-                            "Chance": 0.13157899677753449,
-                            "QuantityPercent": -1
-                        }
-                    ],
-                    "Max": -1
-                },
-                {
-                    "Name": "Bear_Pink",
-                    "Attachments": [],
-                    "Chance": 0.70,
-                    "QuantityPercent": -1,
-                    "Variants": [],
-                    "Max": 2
-                }
-            ],
             "Infected": [
                 "ZmbM_HermitSkinny_Beige",
                 "ZmbM_HermitSkinny_Black",
@@ -75,66 +26,101 @@
             ],
             "ItemCount": 30,
             "InfectedCount": 25,
-            "SpawnInfectedForPlayerCalledDrops": 0
-        },
-        {
-            "Container": "ExpansionAirdropContainer_Medical",
-            "Usage": 0,
-            "Weight": 10.0,
+            "SpawnInfectedForPlayerCalledDrops": 0,
             "Loot": [
                 {
-                    "Name": "FirstAidKit",
+                    "Name": "AKS74U",
+                    "Chance": 0.07999999821186066,
                     "Attachments": [
-                        "BandageDressing",
-                        "BandageDressing",
-                        "BandageDressing",
-                        "BandageDressing",
-                        "BandageDressing",
-                        "BandageDressing"
+                        {
+                            "Name": "AKS74U_Bttstck",
+                            "Chance": 1.0,
+                            "Attachments": []
+                        }
                     ],
+                    "QuantityPercent": -1,
+                    "Max": -1,
+                    "Min": 0,
+                    "Variants": []
+                },
+                {
+                    "Name": "FirstAidKit",
                     "Chance": 0.3799999952316284,
+                    "Attachments": [
+                        {
+                            "Name": "BandageDressing",
+                            "Chance": 1.0,
+                            "Attachments": []
+                        },
+                        {
+                            "Name": "BandageDressing",
+                            "Chance": 1.0,
+                            "Attachments": []
+                        },
+                        {
+                            "Name": "BandageDressing",
+                            "Chance": 1.0,
+                            "Attachments": []
+                        },
+                        {
+                            "Name": "BandageDressing",
+                            "Chance": 1.0,
+                            "Attachments": []
+                        },
+                        {
+                            "Name": "BandageDressing",
+                            "Chance": 1.0,
+                            "Attachments": []
+                        },
+                        {
+                            "Name": "BandageDressing",
+                            "Chance": 1.0,
+                            "Attachments": []
+                        }
+                    ],
+                    "QuantityPercent": -1,
+                    "Max": -1,
+                    "Min": 0,
                     "Variants": [
                         {
                             "Name": "FirstAidKit",
+                            "Chance": 0.13157899677753449,
                             "Attachments": [
-                                "BandageDressing",
-                                "SalineBagIV"
-                            ],
-                            "Chance": 0.13157899677753449
+                                {
+                                    "Name": "BandageDressing",
+                                    "Chance": 1.0,
+                                    "Attachments": []
+                                },
+                                {
+                                    "Name": "SalineBagIV",
+                                    "Chance": 1.0,
+                                    "Attachments": []
+                                }
+                            ]
                         },
                         {
                             "Name": "FirstAidKit",
-                            "Attachments": [],
-                            "Chance": 0.13157899677753449
+                            "Chance": 0.13157899677753449,
+                            "Attachments": []
                         }
-                    ],
-                    "Max": -1
-                },
-                {
-                    "Name": "SalineBagIV",
-                    "Attachments": [],
-                    "Chance": 0.40,
-                    "QuantityPercent": -1,
-                    "Variants": [],
-                    "Max": 2
-                },
-                {
-                    "Name": "BandageDressing",
-                    "Attachments": [],
-                    "Chance": 0.50,
-                    "QuantityPercent": -1,
-                    "Variants": [],
-                    "Max": 2
+                    ]
                 },
                 {
                     "Name": "Bear_Pink",
+                    "Chance": 0.699999988079071,
                     "Attachments": [],
-                    "Chance": 0.70,
                     "QuantityPercent": -1,
-                    "Variants": [],
-                    "Max": 2
+                    "Max": 2,
+                    "Min": 0,
+                    "Variants": []
                 }
-            ],
+            ]
+        },
+        {
+            "Container": "ExpansionAirdropContainer_Medical",
+            "FallSpeed": 4.5,
+            "Usage": 0,
+            "Weight": 10.0,
             "Infected": [
                 "ZmbM_HermitSkinny_Beige",
                 "ZmbM_HermitSkinny_Black",
@@ -143,7 +129,98 @@
             ],
             "ItemCount": 10,
             "InfectedCount": 12,
-            "SpawnInfectedForPlayerCalledDrops": 1
+            "SpawnInfectedForPlayerCalledDrops": 1,
+            "Loot": [
+                {
+                    "Name": "FirstAidKit",
+                    "Chance": 0.3799999952316284,
+                    "Attachments": [
+                        {
+                            "Name": "BandageDressing",
+                            "Chance": 1.0,
+                            "Attachments": []
+                        },
+                        {
+                            "Name": "BandageDressing",
+                            "Chance": 1.0,
+                            "Attachments": []
+                        },
+                        {
+                            "Name": "BandageDressing",
+                            "Chance": 1.0,
+                            "Attachments": []
+                        },
+                        {
+                            "Name": "BandageDressing",
+                            "Chance": 1.0,
+                            "Attachments": []
+                        },
+                        {
+                            "Name": "BandageDressing",
+                            "Chance": 1.0,
+                            "Attachments": []
+                        },
+                        {
+                            "Name": "BandageDressing",
+                            "Chance": 1.0,
+                            "Attachments": []
+                        }
+                    ],
+                    "QuantityPercent": -1,
+                    "Max": -1,
+                    "Min": 0,
+                    "Variants": [
+                        {
+                            "Name": "FirstAidKit",
+                            "Chance": 0.13157899677753449,
+                            "Attachments": [
+                                {
+                                    "Name": "BandageDressing",
+                                    "Chance": 1.0,
+                                    "Attachments": []
+                                },
+                                {
+                                    "Name": "SalineBagIV",
+                                    "Chance": 1.0,
+                                    "Attachments": []
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "FirstAidKit",
+                            "Chance": 0.13157899677753449,
+                            "Attachments": []
+                        }
+                    ]
+                },
+                {
+                    "Name": "SalineBagIV",
+                    "Chance": 0.4000000059604645,
+                    "Attachments": [],
+                    "QuantityPercent": -1,
+                    "Max": 2,
+                    "Min": 0,
+                    "Variants": []
+                },
+                {
+                    "Name": "BandageDressing",
+                    "Chance": 0.5,
+                    "Attachments": [],
+                    "QuantityPercent": -1,
+                    "Max": 2,
+                    "Min": 0,
+                    "Variants": []
+                },
+                {
+                    "Name": "Bear_Pink",
+                    "Chance": 0.699999988079071,
+                    "Attachments": [],
+                    "QuantityPercent": -1,
+                    "Max": 2,
+                    "Min": 0,
+                    "Variants": []
+                }
+            ]
         }
     ]
 }

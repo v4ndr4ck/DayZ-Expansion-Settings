@@ -1,8 +1,8 @@
 {
-    "m_Version": 9,
+    "m_Version": 13,
     "MarketSystemEnabled": 1,
     "NetworkCategories": [],
-    "CurrencyIcon": "DayZExpansion/Market/GUI/icons/coinstack2_64x64.edds",
+    "CurrencyIcon": "DayZExpansion/Core/GUI/icons/misc/coinstack2_64x64.edds",
     "ATMSystemEnabled": 1,
     "MaxDepositMoney": 100000,
     "DefaultDepositMoney": 10000,
@@ -270,5 +270,11 @@
         "expansiongoldnugget",
         "expansionsilverbar",
         "expansionsilvernugget"
-    ]
+    ],
+    "VehicleKeys": [
+        "ExpansionCarKey"
+    ],
+    "MaxSZVehicleParkingTime": 1800.0,
+    "SZVehicleParkingTicketFine": 0,
+    "TrainSpawnPositions": []
 }

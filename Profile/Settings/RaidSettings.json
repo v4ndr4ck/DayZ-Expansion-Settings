@@ -1,5 +1,6 @@
 {
-    "m_Version": 0,
+    "m_Version": 5,
+    "BaseBuildingRaidMode": 0,
     "ExplosionTime": 30.0,
     "ExplosiveDamageWhitelist": [
         "Expansion_C4_Explosion",
@@ -14,6 +15,7 @@
     "ExplosionDamageMultiplier": 50.0,
     "ProjectileDamageMultiplier": 1.0,
     "CanRaidSafes": 1,
+    "SafeRaidUseSchedule": 1,
     "SafeExplosionDamageMultiplier": 17.0,
     "SafeProjectileDamageMultiplier": 1.0,
     "SafeRaidTools": [
@@ -38,5 +40,56 @@
     "LockOnTentRaidToolTimeSeconds": 600,
     "LockRaidToolCycles": 5,
     "LockRaidToolDamagePercent": 100.0,
-    "BaseBuildingRaidMode": 0
+    "CanRaidLocksOnContainers": 1,
+    "LockOnContainerRaidUseSchedule": 1,
+    "LockOnContainerRaidTools": [
+        "ExpansionPropaneTorch"
+    ],
+    "LockOnContainerRaidToolTimeSeconds": 600,
+    "LockOnContainerRaidToolCycles": 5,
+    "LockOnContainerRaidToolDamagePercent": 100.0,
+    "Schedule": [
+        {
+            "Weekday": "Sunday",
+            "StartHour": 0,
+            "StartMinute": 0,
+            "DurationMinutes": 1440
+        },
+        {
+            "Weekday": "Monday",
+            "StartHour": 0,
+            "StartMinute": 0,
+            "DurationMinutes": 1440
+        },
+        {
+            "Weekday": "Tuesday",
+            "StartHour": 0,
+            "StartMinute": 0,
+            "DurationMinutes": 1440
+        },
+        {
+            "Weekday": "Wednesday",
+            "StartHour": 0,
+            "StartMinute": 0,
+            "DurationMinutes": 1440
+        },
+        {
+            "Weekday": "Thursday",
+            "StartHour": 0,
+            "StartMinute": 0,
+            "DurationMinutes": 1440
+        },
+        {
+            "Weekday": "Friday",
+            "StartHour": 0,
+            "StartMinute": 0,
+            "DurationMinutes": 1440
+        },
+        {
+            "Weekday": "Saturday",
+            "StartHour": 0,
+            "StartMinute": 0,
+            "DurationMinutes": 1440
+        }
+    ]
 }

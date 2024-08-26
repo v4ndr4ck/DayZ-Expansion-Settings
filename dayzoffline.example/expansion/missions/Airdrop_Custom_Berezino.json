@@ -1,4 +1,5 @@
 {
+    "m_Version": 1,
     "Enabled": 1,
     "Weight": 294.0,
     "MissionMaxTime": 1200,
@@ -10,32 +11,13 @@
     "Height": 450.0,
     "Speed": 25.0,
     "Container": "ExpansionAirdropContainer",
+    "FallSpeed": 0.0,
     "DropLocation": {
         "x": 11464.0,
         "z": 8908.0,
         "Name": "Berezino",
         "Radius": 100.0
     },
-    "Loot": [
-        {
-            "Name": "AKS74U",
-            "Attachments": [
-                "AKS74U_Bttstck"
-            ],
-            "Chance": 0.07999999821186066,
-            "QuantityPercent": -1,
-            "Variants": [],
-            "Max": -1
-        },
-        {
-            "Name": "Bear_Pink",
-            "Attachments": [],
-            "Chance": 0.70,
-            "QuantityPercent": -1,
-            "Variants": [],
-            "Max": 2
-        }
-    ],
     "Infected": [
         "ZmbM_HermitSkinny_Beige",
         "ZmbM_HermitSkinny_Black",
@@ -43,5 +25,31 @@
         "ZmbM_HermitSkinny_Red"
     ],
     "ItemCount": 30,
-    "InfectedCount": 25
+    "InfectedCount": 25,
+    "Loot": [
+        {
+            "Name": "AKS74U",
+            "Chance": 0.07999999821186066,
+            "Attachments": [
+                {
+                    "Name": "AKS74U_Bttstck",
+                    "Chance": 1.0,
+                    "Attachments": []
+                }
+            ],
+            "QuantityPercent": -1,
+            "Max": -1,
+            "Min": 0,
+            "Variants": []
+        },
+        {
+            "Name": "Bear_Pink",
+            "Chance": 0.699999988079071,
+            "Attachments": [],
+            "QuantityPercent": -1,
+            "Max": 2,
+            "Min": 0,
+            "Variants": []
+        }
+    ]
 }

@@ -1,12 +1,17 @@
 {
-    "m_Version": 7,
-    "TraderName": "Vehicles",
+    "m_Version": 12,
     "DisplayName": "#STR_EXPANSION_MARKET_TRADER_VEHICLES",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 0,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
     "TraderIcon": "Car",
     "Currencies": [
         "expansiongoldbar",
         "expansionsilverbar"
     ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
     "Categories": [
         "Vehicle_Parts:3",
         "Cars:1"

@@ -1,5 +1,34 @@
 {
-    "m_Version": 3,
+    "m_Version": 7,
+    "SpawnLocations": [
+        {
+            "Name": "My First Location with random spawns",
+            "Positions": [
+                [
+                    14273.2001953125,
+                    2.4000000953674318,
+                    13053.2998046875
+                ],
+                [
+                    14407.2998046875,
+                    2.0,
+                    13253.0
+                ]
+            ],
+            "UseCooldown": 1
+        },
+        {
+            "Name": "My Location with a static spawn",
+            "Positions": [
+                [
+                    12915.7001953125,
+                    3.4000000953674318,
+                    9278.2001953125
+                ]
+            ],
+            "UseCooldown": 1
+        }
+    ],
     "StartingClothing": {
         "EnableCustomClothing": 1,
         "SetRandomHealth": 1,
@@ -50,41 +79,8 @@
     },
     "EnableSpawnSelection": 1,
     "SpawnOnTerritory": 0,
-    "SpawnLocations": [
-        {
-            "Name": "My First Location with random spawns",
-            "Positions": [
-                [
-                    14273.2001953125,
-                    2.4000000953674318,
-                    13053.2998046875
-                ],
-                [
-                    14407.2998046875,
-                    2.0,
-                    13253.0
-                ]
-            ]
-        },
-        {
-            "Name": "My Location with a static spawn",
-            "Positions": [
-                [
-                    12915.7001953125,
-                    3.4000000953674318,
-                    9278.2001953125
-                ]
-            ]
-        }
-    ],
     "StartingGear": {
         "EnableStartingGear": 1,
-        "UseUpperGear": 1,
-        "UsePantsGear": 0,
-        "UseBackpackGear": 1,
-        "UseVestGear": 0,
-        "UsePrimaryWeapon": 0,
-        "UseSecondaryWeapon": 0,
         "ApplyEnergySources": 1,
         "SetRandomHealth": 1,
         "UpperGear": [
@@ -100,31 +96,33 @@
             }
         ],
         "PantsGear": [],
-        "BackpackGear": [
-            {
-                "ClassName": "FNX45",
-                "Quantity": -1,
-                "Attachments": [
-                    "Mag_FNX45_15Rnd",
-                    "PistolSuppressor"
-                ]
-            }
-        ],
+        "BackpackGear": [],
         "VestGear": [],
-        "PrimaryWeapon":
-        {
-            "ClassName": "AKM",
-            "Quantity": -1,
-            "Attachments": []
-        },
-        "SecondaryWeapon":
-        {
-            "ClassName": "M4A1",
-            "Quantity": -1,
-            "Attachments": []
-        }
+        "PrimaryWeapon": {},
+        "SecondaryWeapon": {}
     },
+    "UseLoadouts": 0,
+    "MaleLoadouts": [
+        {
+            "Loadout": "PlayerSurvivorLoadout",
+            "Chance": 1.0
+        }
+    ],
+    "FemaleLoadouts": [
+        {
+            "Loadout": "PlayerSurvivorLoadout",
+            "Chance": 1.0
+        }
+    ],
     "SpawnHealthValue": 100.0,
     "SpawnEnergyValue": 500.0,
-    "SpawnWaterValue": 500.0
+    "SpawnWaterValue": 500.0,
+    "EnableRespawnCooldowns": 1,
+    "RespawnCooldown": 120,
+    "TerritoryRespawnCooldown": 240,
+    "PunishMultispawn": 1,
+    "PunishCooldown": 120,
+    "PunishTimeframe": 300,
+    "CreateDeathMarker": 1,
+    "BackgroundImagePath": "DayZExpansion/SpawnSelection/GUI/textures/wood_background.edds"
 }

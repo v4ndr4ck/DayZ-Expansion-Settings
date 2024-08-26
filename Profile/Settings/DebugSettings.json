@@ -1,7 +1,6 @@
 {
-    "m_Version": 0,
-    "ShowVehicleDebugMarkers": 0,
-    "DebugVehicleSync": 0,
-    "DebugVehicleTransformSet": 0,
-    "DebugVehiclePlayerNetworkBubbleMode": 0
+    "m_Version": 5,
+    "DebugVehiclePlayerNetworkBubbleMode": 0,
+    "ServerUpdateRateLimit": 0,
+    "EnableProneDeathHandItemDropFix": 1
 }
