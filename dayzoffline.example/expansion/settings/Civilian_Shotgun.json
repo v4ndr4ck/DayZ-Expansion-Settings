@@ -1,0 +1,274 @@
+{
+    "name": "Civilian_Shotgun",
+    "spawnWeight": 1,
+    "characterTypes": [],
+    "attachmentSlotItemSets": [
+      {
+        "slotName": "hands",
+        "discreteItemSets": [
+          {
+            "itemType": "B95",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.21,
+              "healthMax": 0.62,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [
+              "HuntingOptic"
+            ],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Vest",
+        "discreteItemSets": [
+          {
+            "itemType": "HuntingVest",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.21,
+              "healthMax": 0.62,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [
+              "Hook",
+              "Bait",
+              "GoatSteakMeat",
+              "Zagorky",
+              "Pajka",
+              "Pajka_Opened",
+              "Ammo_12gaPellets",
+              "AmmoBox_00buck_10rnd",
+              "SodaCan_Cola"
+            ],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Headgear",
+        "discreteItemSets": [
+          {
+            "itemType": "BaseballCap_Blue",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.21,
+              "healthMax": 0.62,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Armband",
+        "discreteItemSets": [
+          {
+            "itemType": "Armband_Blue",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.21,
+              "healthMax": 0.62,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Gloves",
+        "discreteItemSets": [
+          {
+            "itemType": "LeatherGloves_Beige",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.21,
+              "healthMax": 0.62,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Body",
+        "discreteItemSets": [
+          {
+            "itemType": "Blouse_Violet",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.21,
+              "healthMax": 0.62,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Legs",
+        "discreteItemSets": [
+          {
+            "itemType": "Breeches_Beetcheck",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.21,
+              "healthMax": 0.62,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Feet",
+        "discreteItemSets": [
+          {
+            "itemType": "AthleticShoes_Black",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.21,
+              "healthMax": 0.62,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Eyewear",
+        "discreteItemSets": [
+          {
+            "itemType": "AviatorGlasses",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.21,
+              "healthMax": 0.62,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Mask",
+        "discreteItemSets": [
+          {
+            "itemType": "Bandana_Blue",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.21,
+              "healthMax": 0.62,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Back",
+        "discreteItemSets": [
+          {
+            "itemType": "DryBag_Blue",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.21,
+              "healthMax": 0.62,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [
+              "Chemlight_Blue",
+              "CatFoodCan",
+              "Chips",
+              "Ammo_12gaPellets",
+              "Ammo_45ACP",
+              "AmmoBox_00buck_10rnd",
+              "AmmoBox_45ACP_25rnd"
+            ],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Hips",
+        "discreteItemSets": [
+          {
+            "itemType": "CivilianBelt",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.21,
+              "healthMax": 0.62,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [
+              "Canteen"
+            ],
+            "complexChildrenTypes": [
+              {
+                "itemType": "NylonKnifeSheath",
+                "attributes": {
+                  "healthMin": 0.21,
+                  "healthMax": 0.62,
+                  "quantityMin": 1,
+                  "quantityMax": 1
+                },
+                "quickBarSlot": -1,
+                "simpleChildrenUseDefaultAttributes": true,
+                "simpleChildrenTypes": [
+                  "SteakKnife"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "discreteUnsortedItemSets": [],
+    "_comment": "This loadout was generated, from dayzboosterz.com"
+  }

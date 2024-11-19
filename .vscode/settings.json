@@ -1,0 +1,16 @@
+{
+    "favorites.resources": [
+        {
+            "filePath": "vscode-vfs://github/v4ndr4ck/DayZ-Expansion-Settings/Profile/Quests/Objectives",
+            "group": "Default"
+        },
+        {
+            "filePath": "vscode-vfs://github/v4ndr4ck/DayZ-Expansion-Settings/dayzoffline.example/expansion/settings",
+            "group": "Default"
+        },
+        {
+            "filePath": "vscode-vfs://github/v4ndr4ck/DayZ-Expansion-Settings/Profile/Settings",
+            "group": "Default"
+        }
+    ]
+}
